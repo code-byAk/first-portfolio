@@ -1,0 +1,31 @@
+.site-header{
+    background-color: rgb(214, 111, 38);
+    color: rgb(14, 44, 145);
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.site-header-content
+{
+    margin: 10px ;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    box-shadow: rgb(57, 23, 82) 4px 5px 5px;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
